@@ -1,1 +1,155 @@
-hello world
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nine Sols - Petualangan Epik Menanti</title>
+    <meta name="description" content="Nine Sols adalah game aksi platformer 2D yang menggabungkan pertarungan cepat dengan lore mendalam dalam dunia Taopunk yang unik.">
+    <meta name="keywords" content="Nine Sols, Game Platformer, Sekiro 2D, Taopunk, Red Candle Games">
+    <meta name="author" content="Red Candle Games">
+    <meta property="og:image" content="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg?t=1734346661">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #181818;
+            color: #fff;
+        }
+        header {
+            background: url('https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1809540/header.jpg?t=1734346661') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .container {
+            max-width: 1080px;
+            margin: auto;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #ff5722;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #e64a19;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .grid-item {
+            flex: 1;
+            min-width: 300px;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .grid-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            header {
+                height: 40vh;
+            }
+            .grid {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Selamat Datang di Dunia Nine Sols</h1>
+    </header>
+
+    <div class="container">
+        
+        <!-- TOMBOL AKSI -->
+        <div style="text-align: center;">
+            <a href="https://store.steampowered.com/app/1809540/Nine_Sols/" class="btn">Beli di Steam</a>
+            <a href="https://store.steampowered.com/app/1809540/Nine_Sols/" class="btn">Lihat Fitur</a>
+        </div>
+
+        <!-- DESKRIPSI GAME -->
+        <section class="section">
+            <h2>Tentang Nine Sols</h2>
+            <p>
+                *Nine Sols* adalah game aksi platformer 2D yang menggabungkan **pertarungan cepat ala Sekiro** dengan **dunia Taopunk yang unik**. 
+                Jelajahi dunia kuno, hadapi musuh kuat, dan selesaikan misi epik dalam pencarian balas dendam protagonis kita.
+            </p>
+        </section>
+
+        <!-- FITUR GAME -->
+        <section class="section" id="fitur">
+            <h2>Fitur Utama</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1809540/ss_75017574e6cac5233b32492509fe47825dc530bf.600x338.jpg?t=1734346661" alt="Pertarungan Nine Sols">
+                    <h3>Pertarungan Dinamis</h3>
+                    <p>Sistem pertarungan berbasis defleksi yang menantang dan memuaskan, terinspirasi dari Sekiro.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1809540/ss_a48f85ae073148d13332b1a7741a764a046f83be.600x338.jpg?t=1734346661" alt="Dunia Taopunk">
+                    <h3>Dunia Taopunk</h3>
+                    <p>Kombinasi unik antara Taoisme dan cyberpunk, menciptakan lingkungan yang belum pernah ada sebelumnya.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1809540/ss_bf5096e3682d7d2fb1d3fa7cccb5398fb934144a.600x338.jpg?t=1734346661" alt="Cerita Mendalam">
+                    <h3>Cerita yang Mendalam</h3>
+                    <p>Nikmati alur cerita kaya dengan karakter penuh emosi dan dunia yang misterius.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ULASAN -->
+        <section class="section">
+            <h2>Apa Kata Pemain?</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>🌟🌟🌟🌟🌟</h3>
+                    <p>"Sebuah mahakarya dengan pertarungan luar biasa dan cerita yang memikat!" - Steam User</p>
+                </div>
+                <div class="grid-item">
+                    <h3>🌟🌟🌟🌟🌟</h3>
+                    <p>"Gabungan sempurna antara seni indah dan gameplay menantang!" - Game Reviewer</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2024 Red Candle Games. Semua hak dilindungi.</p>
+    </footer>
+
+</body>
+</html>
